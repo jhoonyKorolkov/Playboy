@@ -1,0 +1,40 @@
+@import "app/scss/fonts.scss";
+
+@mixin main-font {
+  font-family: 'Roboto Condensed';
+}
+
+@mixin Narrow {
+  font-family: 'PT Sans Narrow';
+}
+
+@mixin secondary-font {
+  font-family: 'Roboto Slab';
+}
+
+@mixin over-font {
+  font-family: 'PT Sans';
+}
+
+@mixin title-font {
+  font-family: 'Roboto';
+}
+
+@mixin default-ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+@mixin stroke {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 1px;
+  background-color: #fff;
+  position: absolute;
+  bottom: 0;
+}
+
+$color-hover: #ff0044;
+$color-text: #999999;
