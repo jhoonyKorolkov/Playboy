@@ -54,8 +54,8 @@
 	  }
 
 	  .field_search-icon {
-      width: 45px;
-      top: 20px;
+	    width: 45px;
+	    top: 20px;
 	    height: 45px;
 	  }
 
@@ -213,8 +213,8 @@
 	@media (min-width: 640px) {
 	  .menu_search-panel {
 	    width: 88%;
-    }
-    
+	  }
+
 	  .menu_search-field {
 	    width: 88%;
 	  }
@@ -250,7 +250,7 @@
 
 	  .menu_hamburger:hover .menu_hamburger-inner {
 	    background-color: #fff;
-	    transition: 0.6s;
+	    transition: .4s;
 	  }
 
 	  .menu_search-link:hover {
@@ -408,6 +408,7 @@
 	  .news_block:hover img {
 	    transform: scale(1.1);
 	    transition: all .6s;
+	    will-change: transform;
 	  }
 
 	  .news_block-discription {
@@ -457,7 +458,7 @@
 	  }
 
 	  .option_list-link:hover {
-	    transition: all .4s;
+	    transition: .2s;
 	  }
 
 	  .special_icon-wrapper {
@@ -484,12 +485,12 @@
 
 	    &:hover {
 	      .special_icon {
-	        transition: all 0.4s;
+	        transition: all .6s;
 	        fill: $color-hover;
 	      }
 
 	      .special_text {
-	        transition: all 0.4s;
+	        transition: all .6s;
 	        color: $color-hover;
 	      }
 	    }
@@ -512,7 +513,7 @@
 	    width: 234px;
 
 	    &:hover {
-	      transition: all 0.4s;
+	      transition: all .6s;
 	    }
 	  }
 
@@ -571,9 +572,15 @@
 	    overflow: hidden;
 	  }
 
+	  .news_img-wrapper {
+	    display: inline-block;
+	    overflow: hidden;
+	  }
+
 	  .articles_block:hover img {
 	    transform: scale(1.1);
 	    transition: all .6s;
+	    will-change: transform;
 	  }
 
 	  .articles_block-wrapper {
@@ -724,11 +731,12 @@
 	  .articles_model:hover img {
 	    transform: scale(1.1);
 	    transition: all .6s;
+	    will-change: transform;
 	  }
 
 	  .wrapper_discription-title {
 	    left: 10px;
-	    bottom: 80px;
+	    bottom: 30px;
 	  }
 
 	  .wrapper_discription-photo {

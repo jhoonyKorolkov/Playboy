@@ -1,4 +1,3 @@
-
 $(document).ready(function () {
 
   $('.page_header-slider').slick({
