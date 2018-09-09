@@ -54,7 +54,8 @@
 	  }
 
 	  .field_search-icon {
-	    width: 45px;
+      width: 45px;
+      top: 20px;
 	    height: 45px;
 	  }
 
@@ -212,8 +213,8 @@
 	@media (min-width: 640px) {
 	  .menu_search-panel {
 	    width: 88%;
-	  }
-
+    }
+    
 	  .menu_search-field {
 	    width: 88%;
 	  }
