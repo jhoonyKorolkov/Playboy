@@ -406,7 +406,7 @@
 	  }
 
 	  .news_block:hover img {
-	    transform: scale(1.1);
+      transform: scale(1.1);
 	    transition: all .6s;
 	    will-change: transform;
 	  }
@@ -726,7 +726,11 @@
 	    padding: 0;
 	    margin: 0;
 	    overflow: hidden;
-	  }
+    }
+    
+    .wrapper_discription-photo {
+      top: 0;
+    }
 
 	  .articles_model:hover img {
 	    transform: scale(1.1);
@@ -749,7 +753,7 @@
 
 	  .articles_model-number {
 	    font-weight: 300;
-	    font-size: 36px;
+	    font-size: 42px;
 	  }
 
 	  .model-number-text {

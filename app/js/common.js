@@ -31,7 +31,6 @@ $(document).ready(function () {
   });
 });
 
-
 $(document).ready(function () {
   $('.menu').removeClass('fixed_menu');
   $(window).scroll(function () {
