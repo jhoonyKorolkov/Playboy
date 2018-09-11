@@ -36,8 +36,10 @@ $(document).ready(function () {
   $(window).scroll(function () {
     if ($(this).scrollTop() > 800) {
       $('.menu').addClass("fixed_menu");
+      $('.scroll').addClass('body_scroll');
     } else {
       $('.menu').removeClass("fixed_menu");
+      $('.scroll').removeClass('body_scroll');
     }
   });
 });
