@@ -100,3 +100,13 @@ VK.Widgets.Group("vk_groups", {
   width: "300",
   height: "240"
 }, 24377932);
+
+document.body.onload = function () {
+  setTimeout(function () {
+    var preloader = document.getElementById('preload');
+    if (!preloader.classList.contains('done')) {
+      preloader.classList.add('done');
+    }
+  }, 1000);
+
+};
